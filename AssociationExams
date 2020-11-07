@@ -1,0 +1,47 @@
+Overview
+
+This was built for the course: Developing Data Products as part of the Coursera Data Science Specialization.
+
+The shiny app developed for this assignment is avalilable: https://erginozcan.shinyapps.io/AssociationExams/
+
+The source codes of ui.R and server.R and are available on the GitHub repo: https://erginozcan.shinyapps.io/AssociationExams/
+Exam Marks Calculation and Interpretation
+
+The average mark for the three exams written is calculated based on the following formula:
+
+Average mark = (w + x + y + z) / 4
+
+Where:
+
+    w =  Society Information Score
+    x =  Database Score
+    y =  Foreign Language Score
+    z =  Accounting Score
+
+Exam Intrepretation
+
+Example: For a score of 65 at Society Information, 
+
+Average Score is 
+
+    Average <50, : Failed
+    Average [50-59] , : Considered for the junior association participate position
+    Average [60-69] , : Considered for the association participate position
+    Average [70-79] , : Considered for the association specialist position
+    Average [80-89] , :Considered for the association manager trainee position
+    Average >= 90 : Considered for the association manager position
+
+Shiny App: Interactive BMI Calculator
+Sidebar panel
+
+    numericInput: Value of  score
+    numericInput: Value of  score
+    numericInput: Value of  score
+    numericInput: Value of  score
+
+Main panel
+
+    Short description of Average value
+    Make calculation on server side
+    Display the calculated average value
+    Display Intepretation
